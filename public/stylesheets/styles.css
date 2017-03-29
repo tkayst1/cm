@@ -1,0 +1,47 @@
+/* custom classes */
+
+.hover {
+    color: white !important;
+}
+
+/* site */
+
+.masthead.segment {
+    min-height: 850px;
+    padding: 1em 0em;
+}
+
+.ui.large.secondary.inverted.pointing.menu {
+    border: 0;    
+}
+
+#header {
+    background: url(../images/header.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#header a {
+    font-weight: bold !important;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+#header a {
+    color: white;
+    font-size: 1.2em;
+}
+
+#header .ui.inverted.header {
+    font-size: 2.5em;
+    margin-top: 7em;
+    margin-bottom: 1.5em;
+}
+
+#fy {
+    background-color: #f05f40;
+}
